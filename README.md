@@ -13,10 +13,14 @@ Pituitary
 
 # Requirements
 Python 3.x
+
 TensorFlow 2.x
+
 Keras Tuner
+
 NumPy
 
+MRI scans: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 # Code Breakdown
 
 # Import Dependencies
