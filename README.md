@@ -10,3 +10,20 @@ Glioma
 Meningioma
 No Tumor
 Pituitary
+
+# Requirements
+Python 3.x
+TensorFlow 2.x
+Keras Tuner
+NumPy
+
+# Code Breakdown
+
+Import Dependencies
+The necessary modules are imported, including TensorFlow, Keras Tuner, and NumPy.
+
+```from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.applications import VGG16
+from tensorflow.keras import layers, models
+from kerastuner.tuners import RandomSearch
+import numpy as np```
